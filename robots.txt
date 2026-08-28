@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://giancarlos25.github.io/sitemap.xml
+Sitemap: https://giancarlos25.github.io/Portfolio-GianCarlos/sitemap.xml

@@ -241,7 +241,11 @@
   var MAX_REPOS = 6;
 
   var repoGrid = document.getElementById("repoGrid");
+  // Todas las tarjetas destacadas (para excluirlas de "Más repositorios")
   var featuredLinks = document.querySelectorAll(".project-card__links[data-repo-match]");
+  // Solo las que necesitan que su enlace se rellene solo buscando el repo por nombre
+  // (las que ya tienen una URL real escrita a mano no se tocan)
+  var autoLinkTargets = document.querySelectorAll(".project-card__links[data-autolink]");
 
   function readCache() {
     try {
@@ -279,7 +283,7 @@
   }
 
   function linkFeaturedProjects(repos) {
-    featuredLinks.forEach(function (container) {
+    autoLinkTargets.forEach(function (container) {
       var keywords = (container.getAttribute("data-repo-match") || "")
         .split(",")
         .map(function (k) { return k.trim().toLowerCase(); })
