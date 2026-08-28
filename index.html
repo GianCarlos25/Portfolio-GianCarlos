@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gian Carlos Samaniego · Desarrollador Full-Stack &amp; Sistemas</title>
+<meta name="description" content="Desarrollador full-stack y técnico de sistemas en Valencia. Vue.js, Laravel y PHP en producción, infraestructura, rendimiento y automatización con IA. Disponible para proyectos freelance.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gian Carlos Samaniego · Desarrollador Full-Stack & Sistemas">
+<meta property="og:description" content="Vue.js, Laravel y PHP en producción, más infraestructura, rendimiento y automatización. Dos años entregando software que no se rompe.">
+<meta property="og:image" content="assets/og-image.png">
+<meta property="og:url" content="https://giancarlos25.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="canonical" href="https://giancarlos25.github.io/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Gian Carlos Samaniego Herrera",
+  "jobTitle": "Desarrollador Full-Stack y Técnico de Sistemas",
+  "url": "https://giancarlos25.github.io/",
+  "email": "mailto:giancarlos.sh25@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Valencia",
+    "addressCountry": "ES"
+  },
+  "sameAs": [
+    "https://github.com/GianCarlos25",
+    "https://www.linkedin.com/in/gian-carlos-samaniego-herrera-816123241/"
+  ],
+  "knowsAbout": ["Vue.js", "Laravel", "PHP", "JavaScript", "TypeScript", "MySQL", "WordPress", "Docker"]
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<header class="site-header" id="site-header">
+  <nav class="nav" aria-label="Navegación principal">
+    <a class="nav__mark" href="#top" aria-label="Ir al inicio">GC<span class="nav__mark-dot">.</span></a>
+
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="nav__links" id="navLinks">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#servicios">Servicios</a>
+      <a class="nav__cta" href="#contacto">Hablemos</a>
+    </div>
+  </nav>
+</header>
+
+<main id="contenido">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero__grid">
+      <div class="hero__copy">
+        <h1 class="hero__headline">
+          Full-stack y sistemas para productos que no fallan.
+        </h1>
+        <p class="hero__sub">
+          Vue, Laravel y PHP en producción, más infraestructura, rendimiento y automatización. Dos años entregando software que no se rompe.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn btn--ghost" href="#contacto">Hablemos</a>
+        </div>
+        <div class="hero__social" aria-label="Redes y contacto">
+          <a href="https://github.com/GianCarlos25" target="_blank" rel="noopener noreferrer" aria-label="Perfil de GitHub de Gian Carlos">
+            <img src="https://cdn.simpleicons.org/github/EDEBDD" width="20" height="20" alt="" loading="lazy">
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/gian-carlos-samaniego-herrera-816123241/" target="_blank" rel="noopener noreferrer" aria-label="Perfil de LinkedIn de Gian Carlos">
+            <img src="https://cdn.simpleicons.org/linkedin/EDEBDD" width="20" height="20" alt="" loading="lazy">
+            <span>LinkedIn</span>
+          </a>
+          <a href="mailto:giancarlos.sh25@gmail.com" aria-label="Enviar un correo a Gian Carlos">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg>
+            <span>Email</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__visual" aria-hidden="true">
+        <canvas id="networkCanvas"></canvas>
+        <dl class="hero__stats">
+          <div class="stat">
+            <dt>Experiencia</dt>
+            <dd data-count="2" data-suffix="+ años">0</dd>
+          </div>
+          <div class="stat">
+            <dt>Usuarios en la plataforma que mantengo</dt>
+            <dd data-count="100000" data-suffix="+" data-compact="true">0</dd>
+          </div>
+          <div class="stat">
+            <dt>Asistentes en soporte de eventos en vivo</dt>
+            <dd data-count="15000" data-suffix="" data-compact="true">0</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOBRE MI ============ -->
+  <section class="about" id="sobre-mi">
+    <div class="section-inner about__grid">
+      <div class="about__copy">
+        <h2>Sobre mí</h2>
+        <p>
+          Soy desarrollador full-stack y técnico de sistemas en Valencia. Llevo más de dos años moviéndome entre el código y la infraestructura: diseño y construyo aplicaciones web con Vue.js y Laravel, y también me encargo de que esas aplicaciones, y las de otros, carguen rápido, no se caigan y sigan funcionando cuando de verdad importa.
+        </p>
+        <p>
+          Ahora mismo compagino el desarrollo de portales corporativos desde cero con el mantenimiento de una plataforma educativa con más de 100.000 alumnos en su histórico, donde automatizo procesos con IA y optimizo consultas que antes atascaban el servidor. Estudio el Grado Superior en Desarrollo de Aplicaciones Web, con mención honorífica en el proyecto final del ciclo anterior.
+        </p>
+      </div>
+
+      <div class="about__skills">
+        <div class="skill-group">
+          <h3>Frontend</h3>
+          <ul class="tag-list">
+            <li><img src="https://cdn.simpleicons.org/vuedotjs/9CA3AF" width="14" height="14" alt="" loading="lazy">Vue.js</li>
+            <li><img src="https://cdn.simpleicons.org/react/9CA3AF" width="14" height="14" alt="" loading="lazy">React</li>
+            <li><img src="https://cdn.simpleicons.org/typescript/9CA3AF" width="14" height="14" alt="" loading="lazy">TypeScript</li>
+            <li><img src="https://cdn.simpleicons.org/javascript/9CA3AF" width="14" height="14" alt="" loading="lazy">JavaScript</li>
+            <li><img src="https://cdn.simpleicons.org/tailwindcss/9CA3AF" width="14" height="14" alt="" loading="lazy">Tailwind CSS</li>
+            <li><img src="https://cdn.simpleicons.org/vite/9CA3AF" width="14" height="14" alt="" loading="lazy">Vite</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Backend &amp; datos</h3>
+          <ul class="tag-list">
+            <li><img src="https://cdn.simpleicons.org/php/9CA3AF" width="14" height="14" alt="" loading="lazy">PHP</li>
+            <li><img src="https://cdn.simpleicons.org/laravel/9CA3AF" width="14" height="14" alt="" loading="lazy">Laravel</li>
+            <li><img src="https://cdn.simpleicons.org/cakephp/9CA3AF" width="14" height="14" alt="" loading="lazy">CakePHP</li>
+            <li><img src="https://cdn.simpleicons.org/mysql/9CA3AF" width="14" height="14" alt="" loading="lazy">MySQL</li>
+            <li><img src="https://cdn.simpleicons.org/wordpress/9CA3AF" width="14" height="14" alt="" loading="lazy">WordPress</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Sistemas &amp; herramientas</h3>
+          <ul class="tag-list">
+            <li><img src="https://cdn.simpleicons.org/docker/9CA3AF" width="14" height="14" alt="" loading="lazy">Docker</li>
+            <li><img src="https://cdn.simpleicons.org/git/9CA3AF" width="14" height="14" alt="" loading="lazy">Git</li>
+            <li><img src="https://cdn.simpleicons.org/figma/9CA3AF" width="14" height="14" alt="" loading="lazy">Figma</li>
+            <li>Automatización con IA</li>
+            <li>Hosting &amp; despliegue</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCIA ============ -->
+  <section class="experience" id="experiencia">
+    <div class="section-inner">
+      <h2>Experiencia</h2>
+
+      <ol class="timeline">
+        <li class="timeline__item">
+          <div class="timeline__meta">
+            <span class="timeline__date">Mar 2024 - Actualidad</span>
+            <span class="timeline__place">Valencia, España</span>
+          </div>
+          <div class="timeline__body">
+            <h3>Desarrollador Web &amp; Soporte Técnico</h3>
+            <p class="timeline__org">AMAlapublicidad (Grupo Papillón)</p>
+            <ul>
+              <li>Diseño y desarrollo de portales corporativos desde cero, tomando requisitos directamente con el cliente.</li>
+              <li>Optimización de rendimiento (WPO): caché y minificación de JS y CSS para reducir tiempos de carga.</li>
+              <li>Soporte técnico de nivel 1 y 2, resolviendo incidencias y manteniendo la continuidad del negocio.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline__item">
+          <div class="timeline__meta">
+            <span class="timeline__date">Mar 2024 - Actualidad</span>
+            <span class="timeline__place">Valencia, España</span>
+          </div>
+          <div class="timeline__body">
+            <h3>Técnico TI &amp; Gestión de Plataformas</h3>
+            <p class="timeline__org">AEPSIS · Asociación Española de Psicología Sanitaria</p>
+            <ul>
+              <li>Desarrollo y mantenimiento de un ecosistema educativo en WordPress y Moodle con más de 100.000 alumnos en su histórico, con integraciones a medida en PHP.</li>
+              <li>Automatización con IA (Claude, Gemini) para gestión de correo y moderación de contenido, liberando tiempo del equipo humano.</li>
+              <li>Optimización de bases de datos con caché y actualización asíncrona, reduciendo la carga del servidor en consultas pesadas.</li>
+              <li>Soporte de infraestructura en vivo para congresos de hasta 15.000 asistentes online.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ PROYECTOS ============ -->
+  <section class="projects" id="proyectos">
+    <div class="section-inner">
+      <h2>Proyectos</h2>
+
+      <div class="featured-projects">
+        <article class="project-card project-card--featured">
+          <div class="project-card__head">
+            <h3>HotelAPI</h3>
+            <span class="project-card__date">Dic 2025 - Ene 2026</span>
+          </div>
+          <p>Backend RESTful completo para la gestión de reservas y operaciones de un hotel. Construido en PHP puro con Composer para las dependencias, autenticación segura y una base de datos relacional pensada para las transacciones.</p>
+          <ul class="tag-list tag-list--plain">
+            <li>PHP</li><li>Composer</li><li>MySQL</li><li>REST API</li>
+          </ul>
+          <div class="project-card__links" data-repo-match="hotel">
+            <a class="project-link" href="https://github.com/GianCarlos25" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card project-card--featured">
+          <div class="project-card__head">
+            <h3>App Control de Gastos</h3>
+            <span class="project-card__date">Nov 2025 - Dic 2025</span>
+          </div>
+          <p>Aplicación de página única (SPA) para gestionar finanzas personales en tiempo real, con Vue.js. Componentes modulares y gestión de estado en el frontend para que los datos se actualicen sin recargar la página.</p>
+          <ul class="tag-list tag-list--plain">
+            <li>Vue.js</li><li>JavaScript</li><li>SPA</li><li>Estado reactivo</li>
+          </ul>
+          <div class="project-card__links" data-repo-match="gasto,expense,finan">
+            <a class="project-link" href="https://github.com/GianCarlos25" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="other-projects">
+        <div class="other-projects__head">
+          <h3>Más repositorios</h3>
+          <p>Cargados en directo desde mi perfil de GitHub.</p>
+        </div>
+        <div class="repo-grid" id="repoGrid" aria-live="polite">
+          <div class="repo-skeleton"></div>
+          <div class="repo-skeleton"></div>
+          <div class="repo-skeleton"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICIOS ============ -->
+  <section class="services" id="servicios">
+    <div class="section-inner services__grid">
+      <div class="services__intro">
+        <h2>Servicios</h2>
+        <p>Si necesitas ayuda con tu web, esto es en lo que puedo entrar directamente.</p>
+        <a class="btn btn--primary" href="#contacto">Hablemos</a>
+      </div>
+
+      <ul class="service-list">
+        <li>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><polyline points="8 6 2 12 8 18"/><polyline points="16 6 22 12 16 18"/></svg>
+          <div>
+            <h3>Desarrollo web</h3>
+            <p>Aplicaciones y portales a medida, del backend a la interfaz, con Vue.js, Laravel o WordPress según lo que pida el proyecto.</p>
+          </div>
+        </li>
+        <li>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/></svg>
+          <div>
+            <h3>Diseño web</h3>
+            <p>Interfaces claras y cuidadas que no sacrifican velocidad de carga por verse bien.</p>
+          </div>
+        </li>
+        <li>
+          <img src="https://cdn.simpleicons.org/wordpress/EDEBDD" width="22" height="22" alt="" loading="lazy">
+          <div>
+            <h3>Diseño de WordPress</h3>
+            <p>Sitios en WordPress rápidos y fáciles de mantener, sin plugins de más que ralenticen todo.</p>
+          </div>
+        </li>
+        <li>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <div>
+            <h3>Optimización SEO</h3>
+            <p>Ajustes técnicos de velocidad, estructura y metadatos para que tu web sea más fácil de encontrar.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section class="contact" id="contacto">
+    <div class="section-inner contact__inner">
+      <h2>Hablemos</h2>
+      <p>¿Tienes un proyecto, una vacante o una pregunta? Escríbeme, respondo yo directamente.</p>
+
+      <div class="contact__actions">
+        <a class="btn btn--primary" href="mailto:giancarlos.sh25@gmail.com">giancarlos.sh25@gmail.com</a>
+        <a class="btn btn--ghost" href="https://www.linkedin.com/in/gian-carlos-samaniego-herrera-816123241/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="btn btn--ghost" href="https://github.com/GianCarlos25" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+      <button class="copy-email" id="copyEmailBtn" type="button" data-email="giancarlos.sh25@gmail.com">Copiar email</button>
+      <p class="contact__note" id="copyNote" role="status" aria-live="polite"></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="section-inner footer__inner">
+    <div>
+      <a class="nav__mark" href="#top">GC<span class="nav__mark-dot">.</span></a>
+      <p>Desarrollador full-stack &amp; técnico de sistemas en Valencia.</p>
+    </div>
+    <nav class="footer__links" aria-label="Navegación del pie de página">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Hablemos</a>
+    </nav>
+    <div class="footer__social">
+      <a href="https://github.com/GianCarlos25" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <img src="https://cdn.simpleicons.org/github/9CA3AF" width="18" height="18" alt="" loading="lazy">
+      </a>
+      <a href="https://www.linkedin.com/in/gian-carlos-samaniego-herrera-816123241/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <img src="https://cdn.simpleicons.org/linkedin/9CA3AF" width="18" height="18" alt="" loading="lazy">
+      </a>
+    </div>
+  </div>
+  <p class="footer__copy">
+    <span id="year"></span> Gian Carlos Samaniego Herrera. Hecho a mano con HTML, CSS y JavaScript. Alojado en GitHub Pages.
+  </p>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
